@@ -6,6 +6,7 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 
 find_package(ament_cmake REQUIRED)
+find_package(C REQUIRED)
 
 add_library(b_target INTERFACE)
 target_include_directories(b_target
